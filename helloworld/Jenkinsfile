@@ -1,0 +1,10 @@
+pipeline {
+      agent {label 'Jenkins-slave-2'}
+      stages {
+            stage("hello"){
+                steps{  
+                    echo "welcome to jenkins pipeline"
+                }      
+            }
+      }
+}
